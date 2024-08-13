@@ -1,2 +1,2 @@
-class Transformer():
+class Transformer:
     pass
