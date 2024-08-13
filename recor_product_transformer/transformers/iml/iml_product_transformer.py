@@ -1,7 +1,7 @@
-from transformers.transformer import Transformer
-from transformers.iml.iml_category_transformer import ImlCategoryTransformer
-from transformers.iml.iml_image_transformer import ImlImageTransformer
-from transformers.iml.iml_dimensions_transformer import ImlDimensionsTransformer
+from recor_product_transformer.transformers.transformer import Transformer
+from recor_product_transformer.transformers.iml.iml_category_transformer import ImlCategoryTransformer
+from recor_product_transformer.transformers.iml.iml_image_transformer import ImlImageTransformer
+from recor_product_transformer.transformers.iml.iml_dimensions_transformer import ImlDimensionsTransformer
 
 class ImlProductTransformer(Transformer):
 

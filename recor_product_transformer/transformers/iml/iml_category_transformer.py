@@ -1,7 +1,7 @@
-from transformers.transformer import Transformer
+from recor_product_transformer.transformers.transformer import Transformer
 
 
-class ImlDimensionsTransformer(Transformer):
+class ImlCategoryTransformer(Transformer):
     def transform(self, raw_json: dict):
         """
         :param raw_json: raw_json

@@ -1,6 +1,6 @@
 import json
 import logging
-from app import main
+from recor_product_transformer.app import main
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)

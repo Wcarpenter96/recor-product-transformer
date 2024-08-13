@@ -1,4 +1,4 @@
-from requests.woocommerce.woocommerce_base_request import WooCommerceBaseRequest
+from recor_product_transformer.requests.woocommerce.woocommerce_base_request import WooCommerceBaseRequest
 from typing import cast
 
 

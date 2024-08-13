@@ -1,4 +1,4 @@
-from transformers.transformer import Transformer
+from recor_product_transformer.transformers.transformer import Transformer
 
 
 class ImlImageTransformer(Transformer):
