@@ -8,5 +8,7 @@ class WooCommerceBaseRequest:
             url=os.getenv('WOOCOMMERCE_BASE_URL'),
             consumer_key=os.getenv('WOOCOMMERCE_CONSUMER_KEY'),
             consumer_secret=os.getenv('WOOCOMMERCE_CONSUMER_SECRET'),
-            version="wc/v3"
+            wp_api=True,
+            version="wc/v3",
+            query_string_auth=True
         )
